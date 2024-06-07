@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BTC Library</title>
     <link rel="stylesheet" href="${pageContext.request.contextPath}/MainPage/Index.css">
+
     <script src="${pageContext.request.contextPath}/MainPage/index.js" defer></script>
 </head>
 <body>
@@ -21,7 +22,9 @@
 
                 <div class="dropdown-links">
                     <h3 class="LinkLabel">Livros</h3>
-                    <a href="" class="link">Cadastrar</a>
+                    <a href="" class="link">Cadastrar Autor</a>
+                    <a href="" class="link">Cadastrar Editora</a>
+                    <a href="" class="link">Cadastrar Livros</a>
                     <a href="" class="link">Exibir</a>
                     <a href="" class="link">Deletar</a>
                 </div>

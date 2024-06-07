@@ -59,31 +59,64 @@
     <div class="ContentDiv">
         <form class="form" method="post" action="processa_formulario.php">
             <div class="form-control">
-                <label>Nome do Autor</label>
+                <label>Nome do Livro</label>
                 <input type=text name=nome placeholder="Digite a categoria ddo livro..." />
             </div>
 
             <div class="form-control">
-                <label>Data de Nascimento</label>
-                <input type=date name=dataNascimento placeholder="Digite sua data de nascimento..." />
+                <label>Quantidade</label>
+                <input type=text name=dataNascimento placeholder="Digite sua data de nascimento..." />
             </div>
 
             <div class="form-control">
-                <label>Nacionalidade</label>
+                <label >Categoria</label>
+                <select name="Categoria">
+                    <option value="Categoria">Qual a categoria..</option>
+                    <option value="Cstegoria">Livros didáticos</option>
+                    <option value="Cstegoria">Religiosos</option>
+                    <option value="Cstegoria">Biografias e autobiografias</option>
+
+                </select>
+
+            </div>
+
+            <div class="form-control">
+                <label>Ano Publicado</label>
+                <input type=date name=contato placeholder="Digite seu telefone de contato..." />
+            </div>
+
+            <div class="form-control">
+                <label>Quantidade de Paginas</label>
                 <input type=text name=contato placeholder="Digite seu telefone de contato..." />
             </div>
 
             <div class="form-control">
-                <label>Obra Principal</label>
-                <input type=text name=contato placeholder="Digite seu telefone de contato..." />
+                <label >Idioma</label>
+                <select name="idioma">
+                    <option value="idioma">Qual o idioma...</option>
+                    <option value="idioma">Português</option>
+                    <option value="idioma">Inglês</option>
+                    <option value="idioma">Espanhol</option>
+                </select>
             </div>
 
-            <div class="form-control">
-                <label>Estilo Literario</label>
-                <input type=text name=contato placeholder="Digite seu telefone de contato..." />
-            </div>
+                <div class="form-control">
+                    <label >Idioma</label>
+                    <select name="autor">
+                        <option value="autor">Qual o Autor...</option>
+                        <option value="autor">Cleiton Rasta</option>
+                    </select>
+                </div>
 
-            <button type="submit">Cadastrar</button>
+                    <div class="form-control">
+                        <label >Editora</label>
+                        <select name="editora">
+                            <option value="editora">Qual a Editora...</option>
+                            <option value="editora">Grupo A</option>
+                        </select>
+                    </div>
+
+             <button type="submit">Cadastrar</button>
         </form>
     </div>
 

@@ -41,6 +41,7 @@
 
             </div>
 
+
         </div>
     </div>
     <h3 class="link"> Bruce The Cat</h3>
@@ -59,28 +60,18 @@
     <div class="ContentDiv">
         <form class="form" method="post" action="processa_formulario.php">
             <div class="form-control">
-                <label>Nome do Autor</label>
-                <input type=text name=nome placeholder="Digite a categoria ddo livro..." />
+                <label>Nome da Editora</label>
+                <input type=text name=nome placeholder="Digite o nome da Editora..." />
             </div>
 
             <div class="form-control">
-                <label>Data de Nascimento</label>
+                <label>Ano da Fundação</label>
                 <input type=date name=dataNascimento placeholder="Digite sua data de nascimento..." />
             </div>
 
             <div class="form-control">
-                <label>Nacionalidade</label>
-                <input type=text name=contato placeholder="Digite seu telefone de contato..." />
-            </div>
-
-            <div class="form-control">
-                <label>Obra Principal</label>
-                <input type=text name=contato placeholder="Digite seu telefone de contato..." />
-            </div>
-
-            <div class="form-control">
-                <label>Estilo Literario</label>
-                <input type=text name=contato placeholder="Digite seu telefone de contato..." />
+                <label>Principal Publicação</label>
+                <input type=text name=contato placeholder="Digite a obra da editora..." />
             </div>
 
             <button type="submit">Cadastrar</button>
