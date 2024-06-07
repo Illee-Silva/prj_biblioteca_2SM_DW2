@@ -311,3 +311,48 @@ textarea{
     z-index: 0;
     width: 70%;
 }
+
+.form {
+    padding: 20px;
+    background-color: rgb(0, 15, 26, 0.84);
+}
+
+.form-control {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.form-control label {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.form-control input {
+    background-color: rgb(0, 15, 26, 0.84)
+    display: block;
+    border-radius: 14px;
+    font-size: 14px;
+    width: 100%;
+    padding: 10px;
+}
+
+.form-control select {
+    background-color: rgb(0, 15, 26, 0.84)
+    display: block;
+    border-radius: 14px;
+    font-size: 14px;
+    width: 100%;
+    padding: 10px;
+}
+
+.form button {
+    background-color: rgb(0, 15, 26, 0.84);
+    background-color: rgb(0, 15, 26, 0.84);
+    color: #f3f3f3;
+    font-size: 14px;
+    width: 50%;
+    border-radius: 10px;
+}
+
+
