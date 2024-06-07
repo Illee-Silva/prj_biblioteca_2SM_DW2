@@ -1,0 +1,358 @@
+
+@font-face {
+    font-family: Witch-Magic;
+    src: url("../fonts/little_witch/Little_Witch.ttf");
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000910;
+    font-family: "Poppins", serif;
+    height: 100vh;
+    width: 100%;
+}
+
+.header {
+    background-color: #355562;
+    display: flex;
+    padding: 0.5rem;
+    gap: 1rem;
+    flex-direction: row;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    outline: 3px solid #f1cd99;
+    max-height: 8%;
+    align-items: center;
+    z-index: 2;
+}
+
+h3.link{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background: none;
+    border: none;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 48px;
+    cursor: default;
+    padding: 0 0;
+    margin: 0;
+    font-family: Witch-Magic, serif;
+}
+
+h3.link:hover{
+    color: #ffffff;
+}
+
+.link {
+    background: none;
+    border: none;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Poppins", serif;
+    font-size: 17px;
+    cursor: pointer;
+    padding: 10px 14px;
+}
+
+.LinkLabel{
+    color: white;
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+.dropdown.active > .link,
+.link:hover {
+    color: #e3e3e3;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+    left: 0;
+    top: calc(100% + .25rem);
+    background-color: #355562;
+    outline: 2px solid black;
+    padding: .75rem;
+    border-radius: .25rem;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .1);
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(-10px);
+    transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
+}
+
+.dropdown.active > .link + .dropdown-menu {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+}
+
+.information-grid {
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    gap: 2rem;
+}
+
+.dropdown-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dropdown-links {
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+}
+
+
+.dropdown-heading{
+    background: none;
+    border: none;
+    text-decoration: none;
+    color: #757575;
+    font-family: "Berlin Sans FB", serif;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 14px 18px;
+}
+
+.DropdownButton{
+    font-size: 25px;
+    font-weight: 600;
+    background-color: #011d33;
+    border-radius: 10px;
+    padding: 4px 14px;
+    margin-bottom: 4px;
+}
+
+/* Classes Gerais*/
+
+.Footer{
+    background-color: #355562;
+    display: flex;
+    bottom: 0;
+    max-height: 8%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    outline: 3px solid #f1cd99;
+    z-index: 1;
+    position: relative;
+}
+
+.txt_footer{
+    font-family: "Poppins ExtraBold", serif;
+    color: white;
+    font-size: 15px;
+}
+
+.MainDiv{
+    margin-top: 65px;
+    display: flex;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+.ContentDiv{
+    flex: 1;
+    background-color: rgb(0, 15, 26, 0.84);
+    padding: 10px;
+}
+
+.LogoDiv{
+    display: flex;
+    position:relative;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Logo{
+    height: 350px;
+    width: auto;
+    z-index: -1;
+    position: fixed;
+    top: 55%;
+    right: 75%;
+    transform: translate(50%, -50%);
+}
+/*Formulario*/
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-left: 30px;
+}
+label {
+    margin-bottom: 5px;
+    color: #ffffff;
+    padding: 0;
+}
+input[type="text"] {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #2e006b;
+    box-shadow: none;
+    border: none;
+    color: white;
+    height: auto;
+    width: auto;
+}
+input[type="date"] {
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #2e006b;
+    font-family: "Poppins", serif;
+    color: white;
+    border: none;
+    height: auto;
+    width: auto;
+}
+input[type="submit"] {
+    width: 70%;
+    align-self: center;
+    border-radius: 10px;
+    padding: 0;
+    background-color: #2e006b;
+    font-family: "Poppins", serif;
+    font-size: 22px;
+    height: 32px;
+    color: white;
+    border-color: black;
+}
+
+select{
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: #2e006b;
+    color: white;
+    border: none;
+    height: auto;
+    width: auto;
+}
+.select_content{
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+textarea{
+    padding: 0;
+    height: 200px;
+    width: auto;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    font-size: 16px;
+    border-color: black;
+    
+    
+}
+
+
+.CB_Interesse{
+    display:flex;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: #2e006b;
+    padding: 10px;
+    color: white;
+
+}
+
+.CB_Interesse.input[type="checkbox"]{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 0;
+    color: aqua;
+}
+
+
+
+.form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 600px;
+    background-color: rgba(0, 0, 0, 0.84);
+    height: 100%;
+    margin-right: auto;
+}
+
+
+.LogoCentral{
+    position: relative;
+    height: 400px;
+    width: auto;
+    z-index: -1;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.ContentMainPage{
+    background-color: rgb(0, 15, 26, 0.84);
+    padding: 10px;
+    color: White;
+    z-index: 0;
+    width: 70%;
+}
+
+.form {
+    padding: 20px;
+    background-color: rgb(0, 15, 26, 0.84);
+}
+
+.form-control {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.form-control label {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.form-control input {
+    background-color: rgb(0, 15, 26, 0.84);
+    display: block;
+    border-radius: 14px;
+    font-size: 14px;
+    width: 100%;
+    padding: 10px;
+}
+
+.form-control select {
+    background-color: rgb(0, 15, 26, 0.84);
+    display: block;
+    border-radius: 14px;
+    font-size: 14px;
+    width: 50%;
+    padding: 10px;
+}
+
+.form button {
+    background-color: rgb(0, 15, 26, 0.84);
+    background-color: rgb(0, 15, 26, 0.84);
+    color: #f3f3f3;
+    font-size: 14px;
+    width: 50%;
+    border-radius: 10px;
+}
+
+
