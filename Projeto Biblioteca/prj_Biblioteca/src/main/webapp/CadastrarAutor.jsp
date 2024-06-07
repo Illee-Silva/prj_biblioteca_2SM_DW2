@@ -60,7 +60,7 @@
         <form class="form" method="post" action="processa_formulario.php">
             <div class="form-control">
                 <label>Nome do Autor</label>
-                <input type=text name=nome placeholder="Digite a categoria ddo livro..." />
+                <input type=text name=nome placeholder="Digite a categoria do livro..." />
             </div>
 
             <div class="form-control">
