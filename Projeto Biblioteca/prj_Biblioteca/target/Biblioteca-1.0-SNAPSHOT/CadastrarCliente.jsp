@@ -33,8 +33,8 @@
             <div class="dropdown-section">
 
                 <div class="dropdown-links">
-                    <h3 class="LinkLabel">Funcionarios</h3>
-                    <a href="" class="link">Cadastrar Funcionario</a>
+                    <h3 class="LinkLabel">Cadastrar Funcionarios</h3>
+                    <a href="" class="link">Cadastrar Clientes</a>
                     <a href="" class="link">Funcionario</a>
                     <a href="" class="link">Funcionario</a>
                 </div>
@@ -59,28 +59,18 @@
     <div class="ContentDiv">
         <form class="form" method="post" action="processa_formulario.php">
             <div class="form-control">
-                <label>Nome</label>
-                <input type=text name=nome placeholder="Digite o nome completo..." />
+                <label>CPF</label>
+                <input type=text name=nome placeholder="Digite o CPF do cliente..." />
             </div>
 
             <div class="form-control">
-                <label>Estagiario</label>
-                <input type=text name=dataNascimento placeholder="" />
+                <label>Telefone</label>
+                <input type=date name=dataNascimento placeholder="Digite o telefone de contato..." />
             </div>
 
             <div class="form-control">
-                <label>Grupo de Estantes</label>
-                <input type=text name=contato placeholder="Digite o grupo de estantes..." />
-            </div>
-
-            <div class="form-control">
-                <label>Funcionario Responsavel</label>
-                <input type=text name=contato placeholder="Digite o nome do funcionario responsavel..." />
-            </div>
-
-            <div class="form-control">
-                <label>Instituição</label>
-                <input type=text name=contato placeholder="Digite a instituição..." />
+                <label>Endereço</label>
+                <input type=text name=contato placeholder="Digite o endereço do cliente..." />
             </div>
 
             <button type="submit">Cadastrar</button>

@@ -21,7 +21,9 @@
 
                 <div class="dropdown-links">
                     <h3 class="LinkLabel">Livros</h3>
-                    <a href="" class="link">Cadastrar</a>
+                    <a href="" class="link">Cadastrar Autor</a>
+                    <a href="" class="link">Cadastrar Editora</a>
+                    <a href="" class="link">Cadastrar Livros</a>
                     <a href="" class="link">Exibir</a>
                     <a href="" class="link">Deletar</a>
                 </div>
@@ -38,6 +40,7 @@
                 </div>
 
             </div>
+
 
         </div>
     </div>
@@ -57,35 +60,18 @@
     <div class="ContentDiv">
         <form class="form" method="post" action="processa_formulario.php">
             <div class="form-control">
-                <label>Nome do Livro</label>
-                <input type=text name=nome placeholder="Digite o nome do livro..." />
+                <label>Nome da Editora</label>
+                <input type=text name=nome placeholder="Digite o nome da Editora..." />
             </div>
 
             <div class="form-control">
-                <label>Telefone</label>
-                <input type=text name=contato placeholder="Digite seu telefone de contato..." />
+                <label>Ano da Fundação</label>
+                <input type=date name=dataNascimento placeholder="Digite sua data de nascimento..." />
             </div>
 
             <div class="form-control">
-                <label>Cidade</label>
-                <select name="cidade">
-                    <option value="cidade">Qual a sua cidade...</option>
-                    <option value="cidade1">São Paulo</option>
-                    <option value="cidade2">Embu das Artes</option>
-                    <option value="cidade3">São Lourenço da Serra</option>
-                </select>
-                <!-- <input type=text name=cidade placeholder="Digite sua cidade..."  />  -->
-            </div>
-
-            <div class="form-control">
-                <label>Gênero</label>
-                <select name="genero">
-                    <option value="genero">Como você se identifica...</option>
-                    <option value="masculino">Masculino</option>
-                    <option value="feminino">Feminino</option>
-                    <option value="feminino">Prefiro não dizer</option>
-                </select>
-                <!-- <input type=text name=genero placeholder="Digite seu sexo..."  />  -->
+                <label>Principal Publicação</label>
+                <input type=text name=contato placeholder="Digite a obra da editora..." />
             </div>
 
             <button type="submit">Cadastrar</button>

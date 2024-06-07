@@ -34,7 +34,7 @@
 
                 <div class="dropdown-links">
                     <h3 class="LinkLabel">Funcionarios</h3>
-                    <a href="" class="link">Cadastrar Funcionario</a>
+                    <a href="" class="link">Funcionario</a>
                     <a href="" class="link">Funcionario</a>
                     <a href="" class="link">Funcionario</a>
                 </div>
@@ -59,31 +59,64 @@
     <div class="ContentDiv">
         <form class="form" method="post" action="processa_formulario.php">
             <div class="form-control">
-                <label>Nome</label>
-                <input type=text name=nome placeholder="Digite o nome completo..." />
+                <label>Nome do Livro</label>
+                <input type=text name=nome placeholder="Digite a categoria ddo livro..." />
             </div>
 
             <div class="form-control">
-                <label>Estagiario</label>
-                <input type=text name=dataNascimento placeholder="" />
+                <label>Quantidade</label>
+                <input type=text name=dataNascimento placeholder="Digite sua data de nascimento..." />
             </div>
 
             <div class="form-control">
-                <label>Grupo de Estantes</label>
-                <input type=text name=contato placeholder="Digite o grupo de estantes..." />
+                <label >Categoria</label>
+                <select name="Categoria">
+                    <option value="Categoria">Qual a categoria..</option>
+                    <option value="Cstegoria">Livros didáticos</option>
+                    <option value="Cstegoria">Religiosos</option>
+                    <option value="Cstegoria">Biografias e autobiografias</option>
+
+                </select>
+
             </div>
 
             <div class="form-control">
-                <label>Funcionario Responsavel</label>
-                <input type=text name=contato placeholder="Digite o nome do funcionario responsavel..." />
+                <label>Ano Publicado</label>
+                <input type=date name=contato placeholder="Digite seu telefone de contato..." />
             </div>
 
             <div class="form-control">
-                <label>Instituição</label>
-                <input type=text name=contato placeholder="Digite a instituição..." />
+                <label>Quantidade de Paginas</label>
+                <input type=text name=contato placeholder="Digite seu telefone de contato..." />
             </div>
 
-            <button type="submit">Cadastrar</button>
+            <div class="form-control">
+                <label >Idioma</label>
+                <select name="idioma">
+                    <option value="idioma">Qual o idioma...</option>
+                    <option value="idioma">Português</option>
+                    <option value="idioma">Inglês</option>
+                    <option value="idioma">Espanhol</option>
+                </select>
+            </div>
+
+                <div class="form-control">
+                    <label >Idioma</label>
+                    <select name="autor">
+                        <option value="autor">Qual o Autor...</option>
+                        <option value="autor">Cleiton Rasta</option>
+                    </select>
+                </div>
+
+                    <div class="form-control">
+                        <label >Editora</label>
+                        <select name="editora">
+                            <option value="editora">Qual a Editora...</option>
+                            <option value="editora">Grupo A</option>
+                        </select>
+                    </div>
+
+             <button type="submit">Cadastrar</button>
         </form>
     </div>
 

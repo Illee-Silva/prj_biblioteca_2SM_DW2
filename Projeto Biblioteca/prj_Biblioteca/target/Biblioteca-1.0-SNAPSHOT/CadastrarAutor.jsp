@@ -34,7 +34,7 @@
 
                 <div class="dropdown-links">
                     <h3 class="LinkLabel">Funcionarios</h3>
-                    <a href="" class="link">Cadastrar Funcionario</a>
+                    <a href="" class="link">Funcionario</a>
                     <a href="" class="link">Funcionario</a>
                     <a href="" class="link">Funcionario</a>
                 </div>
@@ -59,28 +59,28 @@
     <div class="ContentDiv">
         <form class="form" method="post" action="processa_formulario.php">
             <div class="form-control">
-                <label>Nome</label>
-                <input type=text name=nome placeholder="Digite o nome completo..." />
+                <label>Nome do Autor</label>
+                <input type=text name=nome placeholder="Digite a categoria do livro..." />
             </div>
 
             <div class="form-control">
-                <label>Estagiario</label>
-                <input type=text name=dataNascimento placeholder="" />
+                <label>Data de Nascimento</label>
+                <input type=date name=dataNascimento placeholder="Digite sua data de nascimento..." />
             </div>
 
             <div class="form-control">
-                <label>Grupo de Estantes</label>
-                <input type=text name=contato placeholder="Digite o grupo de estantes..." />
+                <label>Nacionalidade</label>
+                <input type=text name=contato placeholder="Digite seu telefone de contato..." />
             </div>
 
             <div class="form-control">
-                <label>Funcionario Responsavel</label>
-                <input type=text name=contato placeholder="Digite o nome do funcionario responsavel..." />
+                <label>Obra Principal</label>
+                <input type=text name=contato placeholder="Digite seu telefone de contato..." />
             </div>
 
             <div class="form-control">
-                <label>Instituição</label>
-                <input type=text name=contato placeholder="Digite a instituição..." />
+                <label>Estilo Literario</label>
+                <input type=text name=contato placeholder="Digite seu telefone de contato..." />
             </div>
 
             <button type="submit">Cadastrar</button>
