@@ -3,7 +3,7 @@
 -- Schema prj_biblioteca
 -- -----------------------------------------------------
 CREATE SCHEMA IF NOT EXISTS `prj_biblioteca` DEFAULT CHARACTER SET utf8 ;
-USE `prj_biblioteca` ;
+USE `prj_biblioteca`;
 
 -- -----------------------------------------------------
 -- Table `prj_biblioteca`.`Categoria`

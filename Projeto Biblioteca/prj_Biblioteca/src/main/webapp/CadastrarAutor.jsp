@@ -21,7 +21,7 @@
 
                 <div class="dropdown-links">
                     <h3 class="LinkLabel">Livros</h3>
-                    <a href="" class="link">Cadastrar Autor</a>
+                    <a href="/CadastrarAutor.jsp" class="link">Cadastrar Autor</a>
                     <a href="" class="link">Cadastrar Editora</a>
                     <a href="" class="link">Cadastrar Livros</a>
                     <a href="" class="link">Exibir</a>
@@ -57,7 +57,7 @@
 
     <!-- Div de Conteudo -->
     <div class="ContentDiv">
-        <form class="form" method="post" action="processa_formulario.php">
+        <form class="form" method="post" action="svlt_autor">
             <div class="form-control">
                 <label>Nome do Autor</label>
                 <input type=text name=nome placeholder="Digite a categoria do livro..." />
@@ -70,17 +70,17 @@
 
             <div class="form-control">
                 <label>Nacionalidade</label>
-                <input type=text name=contato placeholder="Digite seu telefone de contato..." />
+                <input type=text name=nacionalidade placeholder="Digite a Nacionalidade..." />
             </div>
 
             <div class="form-control">
                 <label>Obra Principal</label>
-                <input type=text name=contato placeholder="Digite seu telefone de contato..." />
+                <input type=text name=obra_principal placeholder="Digite a obra principal..." />
             </div>
 
             <div class="form-control">
                 <label>Estilo Literario</label>
-                <input type=text name=contato placeholder="Digite seu telefone de contato..." />
+                <input type=text name=estilo_literario placeholder = "Digite o estilo literario..." />
             </div>
 
             <button type="submit">Cadastrar</button>
