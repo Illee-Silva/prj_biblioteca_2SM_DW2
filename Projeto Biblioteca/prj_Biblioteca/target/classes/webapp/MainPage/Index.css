@@ -78,7 +78,7 @@ h3.link:hover{
 .dropdown-menu {
     position: absolute;
     left: 0;
-    top: calc(100% + .50rem);
+    top: calc(100% + .25rem);
     background-color: #355562;
     outline: 2px solid black;
     padding: .75rem;
@@ -111,7 +111,7 @@ h3.link:hover{
 .dropdown-links {
     display: flex;
     flex-direction: column;
-    gap: .25rem;
+    gap: .50rem;
 }
 
 
