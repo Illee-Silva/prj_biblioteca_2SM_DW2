@@ -35,8 +35,8 @@
                 <div class="dropdown-links">
                     <h3 class="LinkLabel">Funcionarios</h3>
                     <a href="CadastrarFuncionario.jsp" class="link">Funcionario</a>
+                    <a href="CadastrarCliente.jsp" class="link">Cliente</a>
                     <a href="CadastrarEmprestimo.jsp" class="link">Emprestimo</a>
-                    <a href="" class="link">Funcionario</a>
                 </div>
 
             </div>
