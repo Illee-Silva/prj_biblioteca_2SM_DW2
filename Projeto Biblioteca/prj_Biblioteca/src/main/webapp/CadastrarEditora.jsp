@@ -41,13 +41,10 @@
 
             </div>
 
-
         </div>
     </div>
 
-    <a href="MainPage/index.jsp">
-        <h3 class="link"> Bruce The Cat</h3>
-    </a>
+    <h3 class="link"> Bruce The Cat</h3>
 
 </div>
 
