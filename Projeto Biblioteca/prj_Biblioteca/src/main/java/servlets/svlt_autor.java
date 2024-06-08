@@ -26,7 +26,7 @@ public class svlt_autor extends HttpServlet {
             Connection connection = DriverManager.getConnection("jdbc:mariadb://localhost:3306/prj_biblioteca", "root", "");
 
             PreparedStatement preparedStatement = connection.prepareStatement(
-                    "INSERT INTO autor(Nome_Completo, DT_Nascimento, Nacionalidade, Principal_Obra, Estilo_literario) VALUES (?, ?, ?, ?, ?)");
+            "INSERT INTO autor(Nome_Completo, DT_Nascimento, Nacionalidade, Principal_Obra, Estilo_literario) VALUES (?, ?, ?, ?, ?)");
 
             preparedStatement.setString(1, Nome_Autor);
             preparedStatement.setString(2, Data_Nascimento_Autor);
