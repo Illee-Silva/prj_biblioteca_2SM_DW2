@@ -111,7 +111,7 @@ h3.link:hover{
 .dropdown-links {
     display: flex;
     flex-direction: column;
-    gap: .50rem;
+    gap: .25rem;
 }
 
 

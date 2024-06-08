@@ -45,7 +45,9 @@
         </div>
     </div>
 
-    <h3 class="link"> Bruce The Cat</h3>
+    <a href="MainPage/index.jsp">
+        <h3 class="link"> Bruce The Cat</h3>
+    </a>
 
 </div>
 
