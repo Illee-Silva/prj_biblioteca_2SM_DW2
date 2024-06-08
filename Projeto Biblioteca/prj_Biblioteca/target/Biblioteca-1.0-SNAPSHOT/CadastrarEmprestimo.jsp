@@ -35,7 +35,7 @@
                 <div class="dropdown-links">
                     <h3 class="LinkLabel">Funcionarios</h3>
                     <a href="CadastrarFuncionario.jsp" class="link">Cadastrar Funcionario</a>
-                    <a href="" class="link">Funcionario</a>
+                    <a href="CadastrarEmprestimo.jsp" class="link">Cadastrar Empréstimos</a>
                     <a href="" class="link">Funcionario</a>
                 </div>
 
@@ -59,32 +59,34 @@
     <div class="ContentDiv">
         <form class="form" method="post" action="processa_formulario.php">
             <div class="form-control">
-                <label>Nome</label>
-                <input type=text name=nome placeholder="Digite o nome completo..." />
-            </div>
-
-            <div class="form-control">
-                <label >Estagiário</label>
-                <select name="estagiario">
-                    <option value="estagiario">Escolha Sim ou Não...</option>
-                    <option value="estagiario">Sim</option>
-                    <option value="estagiario">Não</option>
+                <label >Livro</label>
+                <select name="livro">
+                    <option value="livro">Selecione o livro...</option>
                 </select>
             </div>
 
             <div class="form-control">
-                <label>Grupo de Estantes</label>
-                <input type=text name=estante placeholder="Digite o grupo de estantes..." />
+                <label>Data do Empréstimo</label>
+                <input type=date name=contato placeholder="Selecione a data..." />
             </div>
 
             <div class="form-control">
-                <label>Funcionario Responsavel</label>
-                <input type=text name=funcionario placeholder="Digite o nome do funcionario responsavel..." />
+                <label>Data da Devolução</label>
+                <input type=date name=contato placeholder="Selecione a data..." />
             </div>
 
             <div class="form-control">
-                <label>Instituição</label>
-                <input type=text name=instituicao placeholder="Digite a instituição..." />
+                <label >Funcionario Emprestimo</label>
+                <select name="funcionario">
+                    <option value="funionario">Selecione o funcionario...</option>
+                </select>
+            </div>
+
+            <div class="form-control">
+                <label >Cliente Emprestimo</label>
+                <select name="nomeCliente">
+                    <option value="nomeCliente">Selecione o cliente...</option>
+                </select>
             </div>
 
             <button type="submit">Cadastrar</button>
