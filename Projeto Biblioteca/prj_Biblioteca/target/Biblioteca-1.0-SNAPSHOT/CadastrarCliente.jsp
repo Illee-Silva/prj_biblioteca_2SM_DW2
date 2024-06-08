@@ -33,10 +33,10 @@
             <div class="dropdown-section">
 
                 <div class="dropdown-links">
-                    <h3 class="LinkLabel">Cadastrar Funcionarios</h3>
-                    <a href="" class="link">Cadastrar Clientes</a>
-                    <a href="" class="link">Funcionario</a>
-                    <a href="" class="link">Funcionario</a>
+                    <h3 class="LinkLabel">Funcionarios</h3>
+                    <a href="CadastrarFuncionario.jsp" class="link">Funcionario</a>
+                    <a href="CadastrarCliente.jsp" class="link">Cliente</a>
+                    <a href="CadastrarEmprestimo.jsp" class="link">Emprestimo</a>
                 </div>
 
             </div>
