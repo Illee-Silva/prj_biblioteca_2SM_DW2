@@ -58,19 +58,25 @@
     <!-- Div de Conteudo -->
     <div class="ContentDiv">
         <form class="form" method="post" action="processa_formulario.php">
+
+            <div class="form-control">
+                <label>Nome</label>
+                <input type=date name=nomeCliente placeholder="Digite o nome do cliente..." />
+            </div>
+
             <div class="form-control">
                 <label>CPF</label>
-                <input type=text name=nome placeholder="Digite o CPF do cliente..." />
+                <input type=text name=cpf placeholder="Digite o CPF do cliente..." />
             </div>
 
             <div class="form-control">
                 <label>Telefone</label>
-                <input type=date name=dataNascimento placeholder="Digite o telefone de contato..." />
+                <input type=date name=dataTelefone placeholder="Digite o telefone de contato..." />
             </div>
 
             <div class="form-control">
                 <label>Endereço</label>
-                <input type=text name=contato placeholder="Digite o endereço do cliente..." />
+                <input type=text name=endereco placeholder="Digite o endereço do cliente..." />
             </div>
 
             <button type="submit">Cadastrar</button>
