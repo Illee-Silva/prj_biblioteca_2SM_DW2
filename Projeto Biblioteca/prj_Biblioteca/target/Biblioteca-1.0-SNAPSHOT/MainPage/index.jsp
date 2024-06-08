@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BTC Library</title>
     <link rel="stylesheet" href="${pageContext.request.contextPath}/MainPage/Index.css">
-
     <script src="${pageContext.request.contextPath}/MainPage/index.js" defer></script>
 </head>
 <body>
@@ -23,8 +22,8 @@
                 <div class="dropdown-links">
                     <h3 class="LinkLabel">Livros</h3>
                     <a href="CadastrarAutor.jsp" class="link">Cadastrar Autor</a>
-                    <a href="" class="link">Cadastrar Editora</a>
-                    <a href="" class="link">Cadastrar Livros</a>
+                    <a href="CadastrarEditora.jsp" class="link">Cadastrar Editora</a>
+                    <a href="CadastrarLivro.jsp" class="link">Cadastrar Livros</a>
                     <a href="" class="link">Exibir</a>
                     <a href="" class="link">Deletar</a>
                 </div>
@@ -35,19 +34,22 @@
 
                 <div class="dropdown-links">
                     <h3 class="LinkLabel">Funcionarios</h3>
-                    <a href="" class="link">Funcionario</a>
-                    <a href="" class="link">Funcionario</a>
-                    <a href="" class="link">Funcionario</a>
+                    <a href="CadastrarFuncionario.jsp" class="link">Funcionario</a>
+                    <a href="CadastrarCliente.jsp" class="link">Cliente</a>
+                    <a href="CadastrarEmprestimo.jsp" class="link">Emprestimo</a>
                 </div>
 
             </div>
 
+
         </div>
     </div>
-    <h3 class="link"> Bruce The Cat</h3>
+
+    <h3 class="link"> Bruce The Cat </h3>
 </div>
 
 <div  class="MainDiv"  style="justify-content: center">
+
     <div class="ContentMainPage">
         <img src="${pageContext.request.contextPath}/MainPage/images/Logo.png" alt="LogoCentral" class="LogoCentral">
         <h2 style="text-align: center">Bem-vindo à Biblioteca Bruce the Cat!</h2>

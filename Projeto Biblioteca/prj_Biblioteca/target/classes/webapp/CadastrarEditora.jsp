@@ -21,9 +21,9 @@
 
                 <div class="dropdown-links">
                     <h3 class="LinkLabel">Livros</h3>
-                    <a href="" class="link">Cadastrar Autor</a>
-                    <a href="" class="link">Cadastrar Editora</a>
-                    <a href="" class="link">Cadastrar Livros</a>
+                    <a href="CadastrarAutor.jsp" class="link">Cadastrar Autor</a>
+                    <a href="CadastrarEditora.jsp.jsp" class="link">Cadastrar Editora</a>
+                    <a href="CadastrarLivro.jsp" class="link">Cadastrar Livros</a>
                     <a href="" class="link">Exibir</a>
                     <a href="" class="link">Deletar</a>
                 </div>
@@ -34,17 +34,18 @@
 
                 <div class="dropdown-links">
                     <h3 class="LinkLabel">Funcionarios</h3>
-                    <a href="" class="link">Funcionario</a>
-                    <a href="" class="link">Funcionario</a>
-                    <a href="" class="link">Funcionario</a>
+                    <a href="CadastrarFuncionario.jsp" class="link">Funcionario</a>
+                    <a href="CadastrarCliente.jsp" class="link">Cliente</a>
+                    <a href="CadastrarEmprestimo.jsp" class="link">Emprestimo</a>
                 </div>
 
             </div>
 
-
         </div>
     </div>
+
     <h3 class="link"> Bruce The Cat</h3>
+
 </div>
 
 <!-- BackGround LOGO  -->

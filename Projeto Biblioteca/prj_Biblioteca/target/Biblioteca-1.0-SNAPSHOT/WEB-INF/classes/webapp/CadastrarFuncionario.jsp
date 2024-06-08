@@ -21,9 +21,9 @@
 
                 <div class="dropdown-links">
                     <h3 class="LinkLabel">Livros</h3>
-                    <a href="" class="link">Cadastrar Autor</a>
-                    <a href="" class="link">Cadastrar Editora</a>
-                    <a href="" class="link">Cadastrar Livros</a>
+                    <a href="CadastrarAutor.jsp" class="link">Cadastrar Autor</a>
+                    <a href="CadastrarEditora.jsp" class="link">Cadastrar Editora</a>
+                    <a href="CadastrarLivro.jsp" class="link">Cadastrar Livros</a>
                     <a href="" class="link">Exibir</a>
                     <a href="" class="link">Deletar</a>
                 </div>
@@ -34,9 +34,9 @@
 
                 <div class="dropdown-links">
                     <h3 class="LinkLabel">Funcionarios</h3>
-                    <a href="" class="link">Cadastrar Funcionario</a>
-                    <a href="" class="link">Funcionario</a>
-                    <a href="" class="link">Funcionario</a>
+                    <a href="CadastrarFuncionario.jsp" class="link">Funcionario</a>
+                    <a href="CadastrarCliente.jsp" class="link">Cliente</a>
+                    <a href="CadastrarEmprestimo.jsp" class="link">Emprestimo</a>
                 </div>
 
             </div>
@@ -64,23 +64,27 @@
             </div>
 
             <div class="form-control">
-                <label>Estagiario</label>
-                <input type=text name=dataNascimento placeholder="" />
+                <label >Estagiário</label>
+                <select name="estagiario">
+                    <option value="estagiario">Escolha Sim ou Não...</option>
+                    <option value="estagiario">Sim</option>
+                    <option value="estagiario">Não</option>
+                </select>
             </div>
 
             <div class="form-control">
                 <label>Grupo de Estantes</label>
-                <input type=text name=contato placeholder="Digite o grupo de estantes..." />
+                <input type=text name=estante placeholder="Digite o grupo de estantes..." />
             </div>
 
             <div class="form-control">
                 <label>Funcionario Responsavel</label>
-                <input type=text name=contato placeholder="Digite o nome do funcionario responsavel..." />
+                <input type=text name=funcionario placeholder="Digite o nome do funcionario responsavel..." />
             </div>
 
             <div class="form-control">
                 <label>Instituição</label>
-                <input type=text name=contato placeholder="Digite a instituição..." />
+                <input type=text name=instituicao placeholder="Digite a instituição..." />
             </div>
 
             <button type="submit">Cadastrar</button>
