@@ -22,7 +22,7 @@
                 <div class="dropdown-links">
                     <h3 class="LinkLabel">Livros</h3>
                     <a href="CadastrarAutor.jsp" class="link">Cadastrar Autor</a>
-                    <a href="CadastrarCliente.jsp" class="link">Cadastrar Editora</a>
+                    <a href="CadastrarEditora.jsp.jsp" class="link">Cadastrar Editora</a>
                     <a href="CadastrarLivro.jsp" class="link">Cadastrar Livros</a>
                     <a href="" class="link">Exibir</a>
                     <a href="" class="link">Deletar</a>
