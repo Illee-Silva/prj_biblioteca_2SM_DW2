@@ -57,11 +57,11 @@
 
     <!-- Div de Conteudo -->
     <div class="ContentDiv">
-        <form class="form" method="post" action="processa_formulario.php">
+        <form class="form" method="post" action="svlt_cliente">
 
             <div class="form-control">
                 <label>Nome</label>
-                <input type=text name=nomeCliente placeholder="Digite o nome do cliente..." />
+                <input type=text name=nome placeholder="Digite o nome do cliente..." />
             </div>
 
             <div class="form-control">
@@ -71,7 +71,7 @@
 
             <div class="form-control">
                 <label>Telefone</label>
-                <input type=text name=dataTelefone placeholder="Digite o telefone de contato..." />
+                <input type=text name=telefone placeholder="Digite o telefone de contato..." />
             </div>
 
             <div class="form-control">

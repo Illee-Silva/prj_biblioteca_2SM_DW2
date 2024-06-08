@@ -1,4 +1,7 @@
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+<%@page import="DAO.ClienteDAO"%>
+<%@ page import="java.util.ArrayList" %>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -21,9 +24,7 @@
 
                 <div class="dropdown-links">
                     <h3 class="LinkLabel">Livros</h3>
-                    <a href="" class="link">Cadastrar Autor</a>
-                    <a href="" class="link">Cadastrar Editora</a>
-                    <a href="" class="link">Cadastrar Livros</a>
+                    <a href="" class="link">Cadastrar</a>
                     <a href="" class="link">Exibir</a>
                     <a href="" class="link">Deletar</a>
                 </div>
@@ -34,9 +35,9 @@
 
                 <div class="dropdown-links">
                     <h3 class="LinkLabel">Funcionarios</h3>
-                    <a href="CadastrarFuncionario.jsp" class="link">Funcionario</a>
-                    <a href="CadastrarCliente.jsp" class="link">Cliente</a>
-                    <a href="CadastrarEmprestimo.jsp" class="link">Emprestimo</a>
+                    <a href="" class="link">Funcionario</a>
+                    <a href="" class="link">Funcionario</a>
+                    <a href="" class="link">Funcionario</a>
                 </div>
 
             </div>
@@ -57,30 +58,26 @@
 
     <!-- Div de Conteudo -->
     <div class="ContentDiv">
-        <form class="form" method="post" action="svlt_cliente">
+        <h2>Clientes Cadastrados</h2>
 
-            <div class="form-control">
-                <label>Nome</label>
-                <input type=text name=nome placeholder="Digite o nome do cliente..." />
-            </div>
+        <hr>
 
-            <div class="form-control">
-                <label>CPF</label>
-                <input type=text name=cpf placeholder="Digite o CPF do cliente..." />
-            </div>
+        <%
+            ArrayList<String> col_ID_Cliente = (ArrayList<String>) request.getAttribute("ID_Cliente");
+            ArrayList<String> col_CPF = (ArrayList<String>) request.getAttribute("CPF");
+            ArrayList<String> col_Telefone = (ArrayList<String>) request.getAttribute("Telefone");
+            ArrayList<String> col_Endereco = (ArrayList<String>) request.getAttribute("Endereco");
+            ArrayList<String> col_Nome = (ArrayList<String>) request.getAttribute("Nome");
 
-            <div class="form-control">
-                <label>Telefone</label>
-                <input type=text name=telefone placeholder="Digite o telefone de contato..." />
-            </div>
+            for(int i = 0; i < col_ID_Cliente.size(); i++) {
+                out.println("ID: " + col_ID_Cliente.get(i) + " | Nome: " + col_Nome.get(i) + " | CPF: " + col_CPF.get(i) + " | Telefone: " + col_Telefone.get(i) + " | Endereco: " + col_Endereco.get(i) + "<br>");
+            }
 
-            <div class="form-control">
-                <label>Endereço</label>
-                <input type=text name=endereco placeholder="Digite o endereço do cliente..." />
-            </div>
+        %>
 
-            <button type="submit">Cadastrar</button>
-        </form>
+        <hr>
+
+
     </div>
 
 </div>
