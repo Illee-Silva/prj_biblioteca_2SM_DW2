@@ -25,7 +25,7 @@ public class svlt_cliente extends HttpServlet {
             Connection connection = DriverManager.getConnection("jdbc:mariadb://localhost:3306/prj_biblioteca", "root", "");
 
             PreparedStatement preparedStatement = connection.prepareStatement(
-                    "INSERT INTO cliente(CPF, Telefone, Endereco, Nome) VALUES (?, ?, ?, ?)");
+                    "INSERT INTO cliente (CPF, Telefone, Endereco, Nome) VALUES (?, ?, ?, ?)");
 
             preparedStatement.setString(4, Nome_Cliente);
             preparedStatement.setString(1, CPF);

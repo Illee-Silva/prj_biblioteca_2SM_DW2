@@ -24,8 +24,8 @@
                     <a href="CadastrarAutor.jsp" class="link">Cadastrar Autor</a>
                     <a href="CadastrarEditora.jsp" class="link">Cadastrar Editora</a>
                     <a href="CadastrarLivro.jsp" class="link">Cadastrar Livros</a>
-                    <a href="" class="link">Exibir</a>
-                    <a href="" class="link">Deletar</a>
+                    <a href="ClienteDAO" class="link">Exibir</a>
+                    <a href="Deletar.jsp" class="link">Deletar</a>
                 </div>
 
             </div>
@@ -34,7 +34,7 @@
 
                 <div class="dropdown-links">
                     <h3 class="LinkLabel">Funcionarios</h3>
-                    <a href="CadastrarFuncionario.jsp" class="link">Funcionario</a>
+                    <a href=Editar.jsp class="link">Editar</a>
                     <a href="CadastrarCliente.jsp" class="link">Cliente</a>
                     <a href="CadastrarEmprestimo.jsp" class="link">Emprestimo</a>
                 </div>
